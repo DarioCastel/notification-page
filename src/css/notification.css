@@ -1,0 +1,7 @@
+.containerNotification{
+    background-color: var(--White);
+    min-height: 80vh;
+    width: 50vw;
+    border-radius: 10px;
+    padding: 2rem;
+}
