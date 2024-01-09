@@ -1,8 +1,18 @@
-
+import '../css/headNotification.css'
 
 const HeadNotification = () => {
   return (
-    <div>HeadNotification</div>
+    <>
+    <div className="headNotificationContainer">
+      <div className="notificationCount">
+        <span className="notificationTitle">Notifications</span>
+        <span className="countNotification">3</span>
+      </div>
+      <div className="markAll">
+        mark all as read
+      </div>
+    </div>
+    </>
   )
 }
 

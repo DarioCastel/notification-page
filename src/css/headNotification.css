@@ -1,0 +1,22 @@
+.headNotificationContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notificationCount{
+    display: flex;
+    gap: 1rem;
+}
+.notificationTitle{
+    height: 1.5rem;
+}
+
+.countNotification{
+    background-color: blue;
+    color: white;
+    height: 1.5rem;
+    width: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

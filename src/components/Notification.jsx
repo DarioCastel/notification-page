@@ -8,8 +8,6 @@ const Notification = () => {
         <HeadNotification/>
         <section className="contentNotification">
             <ItemList/>
-            <ItemList/>
-            <ItemList/>
         </section>
     </div>
   )

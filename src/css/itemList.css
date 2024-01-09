@@ -1,0 +1,39 @@
+.itemContainer{
+    display: flex;
+    gap: 1rem;
+    background-color: red;
+    width: 100%;
+    height: 3rem;
+    font-size: 16px;
+}
+
+.photoItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 3rem;
+    height: 3rem;
+}
+
+.personItem{
+    display: flex;
+    gap: .25rem;
+    font-size: 16px;
+
+}
+.namePerson{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.activityItem{
+    font-size: 16px;
+}
+
+.elementItem{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
