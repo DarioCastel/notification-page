@@ -1,39 +1,105 @@
 .itemContainer{
     display: flex;
     gap: 1rem;
-    background-color: red;
     width: 100%;
-    height: 3rem;
     font-size: 16px;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.itemContainer.active{
+    background-color: var(--Light-grayish-blue-2);
+}
+
+.contentItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .photoItem{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
     width: 3rem;
     height: 3rem;
 }
 
+.photoItem img{
+    width: 100%;
+    height: 100%;
+}
+
 .personItem{
     display: flex;
+    flex-direction: column;
     gap: .25rem;
     font-size: 16px;
-
+    width: 100%;
 }
+
+.checkFlex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.personItem p span{
+    margin-right: 4px;
+}
+
+.messageItem{
+    border-radius: 5px;
+    border: 1px solid var(--Dark-grayish-blue);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.messageItem:hover{
+    background-color: var(--Light-grayish-blue-2);
+}
+
 .namePerson{
     font-weight: bold;
     cursor: pointer;
     font-size: 16px;
 }
 
+.namePerson:hover{
+    color: var(--Blue-main);
+}
+
 .activityItem{
     font-size: 16px;
+    color: var(--Dark-grayish-blue);
 }
 
 .elementItem{
     font-weight: bold;
     cursor: pointer;
     font-size: 16px;
+    color: var(--Dark-grayish-blue);
+}
+
+.elementItem:hover{
+    color: var(--Blue-main);
+}
+
+.checkItem{
+    background-color: red;
+    border-radius: 50%;
+    height: .5rem;
+    width: .5rem;
+}
+
+.miniPhotoItem{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 5px;
+}
+
+.miniPhotoItem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
