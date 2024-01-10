@@ -1,7 +1,7 @@
 .containerNotification{
     background-color: var(--White);
     min-height: 80vh;
-    width: 50vw;
+    width: 55vw;
     border-radius: 10px;
     padding: 2rem;
 }
@@ -12,3 +12,14 @@
     gap: 1rem;
     padding: 1rem;
 }
+
+@media(max-width:860px){
+    .containerNotification{
+        border-radius: none;
+        width: 100vw;
+    }
+
+    .contentNotification{
+        padding: 1rem 0rem;
+    }
+  }

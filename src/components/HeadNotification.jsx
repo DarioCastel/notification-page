@@ -9,7 +9,7 @@ const HeadNotification = () => {
         <span className="countNotification">3</span>
       </div>
       <div className="markAll">
-        mark all as read
+        Mark all as read
       </div>
     </div>
     </>
