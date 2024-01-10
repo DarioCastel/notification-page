@@ -8,7 +8,7 @@
 }
 
 .itemContainer.active{
-    background-color: var(--Light-grayish-blue-2);
+    background-color: var(--Very-light-grayish-blue);
 }
 
 .contentItem{
@@ -102,4 +102,8 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+.dateItem{
+    color: var(--Grayish-blue);
 }
